@@ -28,7 +28,7 @@ export class HomePage {
   logout() {
     this.rAuth.auth.signOut().then(() => {
       this.toast.show('Good Bye !');
-      this.navCtrl.setRoot('LoginPage');
+      this.navCtrl.setRoot('LoginV2Page');
     });
   }
 
